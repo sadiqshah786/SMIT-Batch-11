@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 200px;
+    background-color: black;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+
+}
