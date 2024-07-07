@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- hide and show box -->
+    <button onclick="HideBox();">Hide Box</button>
+    <button onclick="showBox();">Show Box</button>
+
+    <div class="box"> </div>
+    <!--  -->
+
+
+    <!-- modal popup -->
+    <div class="container" onclick="closeModal();">
+        <div class="box">
+            <button onclick="closeModal();">close</button>
+            <h1>dskfhdfkgdf</h1>
+            <p>sdkfsdkfjf</p>
+        </div>
+    </div>
+
+    <button onclick="openModal()">open modal</button>
+    <!--  -->
+
+
+    <!-- single button show modal -->
+    <button onclick="showMenu();">menu icon </button>
+
+    <div class="menu">
+
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
