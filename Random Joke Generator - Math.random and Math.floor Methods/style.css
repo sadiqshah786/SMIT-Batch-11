@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #8e44ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+
+}
+
+.box {
+    width: 500px;
+    background-color: #ffffff63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.box button {
+    background-color: #9b59b6;
+    outline: none;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 
+.box .joke_wrapper {
+    min-height: 120px;
+} */
+
+input,
+textarea {
+    width: 80%;
+    border: 1px solid #9b59b6;
+    outline: none;
+    border-radius: 10px;
+}
+
+.para_box p {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.counter {
+    display: flex;
+    gap: 20px;
+}
+
+.counter p {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
