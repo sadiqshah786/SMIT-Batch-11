@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8e44ad;
+}
+
+.table_wrapper {
+    width: 80%;
+    margin: 0px auto;
+    /* height: 300px; */
+    background-color: #fff;
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 100%;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table {
+    background-color: black;
+    color: #fff;
+    width: 50%;
+    height: 200px;
+    padding: 5px;
+    margin: 50px auto;
+    overflow-y: scroll;
+}
+
+/* width */
+.table::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.table::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.table::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.table h4 {
+    text-align: center;
+}
